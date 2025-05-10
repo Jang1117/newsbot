@@ -15,8 +15,11 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # 텔레그램 설정
-TELEGRAM_BOT_TOKEN = "7616083745:AAExiqZ0drkcfK4ZSSxaD5zMzrH8aTj4eBo"
-CHANNEL_ID = "52899128"
+NAVER_CLIENT_ID = os.environ["NAVER_CLIENT_ID"]
+NAVER_CLIENT_SECRET = os.environ["NAVER_CLIENT_SECRET"]
+TELEGRAM_BOT_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
+CHANNEL_ID = os.environ["CHANNEL_ID"]
+
 
 # 키워드 목록
 SEARCH_KEYWORDS = [
