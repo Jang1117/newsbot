@@ -23,13 +23,13 @@ CHANNEL_ID = os.environ["CHANNEL_ID"]
 
 # 키워드 목록
 SEARCH_KEYWORDS = [
-    "풍력", "터빈", "풍력 발전기", "풍력 타워", "Vestas", 
-    "베스타스", "SGRE", "지멘스 가메사", "Enercon", "에너콘", 
-    "GE 풍력", "Mingyang","밍양", "유니슨", "코오롱글로벌 풍력", "풍력 EPC"
+    "풍력", "터빈", "풍력 발전기", "풍력 타워", 
+    "베스타스", "SGRE", "지멘스 가메사", "에너콘", 
+    "GE 풍력", "밍양", "유니슨", "코오롱글로벌 풍력", "풍력 EPC"
 ]
 
 # 뉴스 개수
-MAX_ARTICLES = 5
+MAX_ARTICLES = 10
 
 # 데이터 저장 파일
 DATA_FILE = "last_sent_news.json"
